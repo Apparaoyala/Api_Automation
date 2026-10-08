@@ -32,25 +32,25 @@ data:{
 console.log(rbody)
 
 
+    const response1 =await request.get('https://restful-booker.herokuapp.com/booking/14');
 
-
-})
-
-
- 
-
-    const response =await request.get('https://restful-booker.herokuapp.com/booking/14');
-
-    const body=await response.json();
+    const body=await response1.json();
     console.log(body);
 
 })
 
 
-test('post request',async({request})=>{
+
+
+
+ 
+
+
+
+test('post request1',async({request})=>{
 
 
     const BASE_URL = 'https://restful-booker.herokuapp.com';
 
-    const 
+   
 })
